@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SG Insurance</title>
+        <!-- All Stylesheets -->
+        <link rel="stylesheet"  href="css/All-Stylesheets.css">
+        <!-- Add 2 Home -->
+        <link rel="apple-touch-icon" href="images/add-to-home/touch-icon-iphone.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="images/add-to-home/touch-icon-ipad.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="images/add-to-home/touch-icon-iphone4.png" />
+        <script type="text/javascript" src="js/add2home.js" charset="utf-8"></script>
+        <!-- Javascript File -->
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <!-- Donut Chart -->
+        <script type="text/javascript" src="js/jquery.donutchart.js"></script>
+        <!-- jQuery Mobile -->
+        <script src="js/jquery.mobile-1.3.2.min.js"></script>
+        <!-- Glyphicons -->
+        <script type="text/javascript" async src="js/glyphicons/ga.js"></script>
+    </head>
+    <body>
+        <!-- Page Contents Starts
+            ================================================== -->
+        <div data-role="page" id="page" data-theme="d">
+            <!-- header Starts -->
+            <div data-role="header" data-position="fixed" data-theme="f" class="header">
+                <h1><a href="index.html" rel="external">SG Insurance</a></h1>
+                <a href="#left-panel" data-shadow="false" ><i class="fa fa-indent fa-2x"></i></a>
+                <a href="#right-panel" data-shadow="false" ><i class="fa fa-bars fa-2x"></i></a>
+            </div>
+            <!-- header Ends -->
+            <div data-role="content">
+                <!-- Slider Starts -->
+                <div class="banner">
+                    <img src="images/typography/5.jpg" width="100%">
+                </div>
+                <!-- Slider Ends -->
+                <h1 class="icon-heading">HTML</h1>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuaa fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+                <hr>
+                <h1 class="icon-heading">ACCORDIONS</h1>
+                <div data-role="collapsible-set" data-theme="c" data-content-theme="d">
+                    <div data-role="collapsible">
+                        <h3>Section 1</h3>
+                        <p>I'm the collapsible content for section 1</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 2</h3>
+                        <p>I'm the collapsible content for section 2</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Section 3</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                    </div>
+                </div>
+                <hr>
+                <h1 class="icon-heading">COLLAPSIBLE</h1>
+                <div data-role="collapsible">
+                    <h4>Heading</h4>
+                    <p>I'm the collapsible content. By default I'm closed, but you can click the header to open me.</p>
+                </div>
+                <div data-role="collapsible" data-collapsed="false">
+                    <h4>Expanded</h4>
+                    <p>I'm the collapsible content. By default I'm closed, but you can click the header to open me.</p>
+                </div>
+                <hr>
+                <h1 class="icon-heading">FIXED</h1>
+                <h2>Fixed header:</h2>
+                <pre>
+&lt;div data-role="header" 
+<strong>data-position="fixed"</strong>&gt;
+&lt;h1&gt;Fixed Header!&lt;/h1&gt;
+&lt;/div&gt;
+</pre>
+                <hr>
+                <h2>Fixed footer:</h2>
+                <pre>
+&lt;div data-role="footer" 
+<strong>data-position="fixed"</strong>&gt;
+&lt;h1&gt;Fixed Footer!&lt;/h1&gt;
+&lt;/div&gt;
+</pre>
+                <hr>
+                <h1 class="icon-heading">HEADINGS</h1>
+                <h1>HEADING 1</h1>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuaa fames ac turpis egestas.</p>
+                <hr>
+                <h2>HEADING 2</h2>
+                <p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+                <hr>
+                <h3>HEADING 3</h3>
+                <p>Malesuaa fames ac turpis egestas. Vestibulum tortor quam.</p>
+                <hr>
+                <h4>HEADING 4</h4>
+                <h5>HEADING 5</h5>
+                <h6>HEADING 6</h6>
+                <hr>
+                <h1 class="icon-heading">LISTVIEW</h1>
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#">
+                            <img src="images/photo-gallery/thumbs/1.jpg" width="100%">
+                            <h2>Broken Bells</h2>
+                            <p>Broken Bells</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/photo-gallery/thumbs/2.jpg" width="100%">
+                            <h2>Warning</h2>
+                            <p>Hot Chip</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/photo-gallery/thumbs/3.jpg" width="100%">
+                            <h2>Wolfgang Amadeus Phoenix</h2>
+                            <p>Phoenix</p>
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+                <h1 class="icon-heading">BULLETS</h1>
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-check-square"></i>Pellentesque habitant</li>
+                    <li><i class="fa-li fa fa-chevron-circle-right"></i>Morbi tristique senectus</li>
+                    <li><i class="fa-li fa fa-angle-double-right"></i>Ultricies eget</li>
+                    <li><i class="fa-li fa fa-arrow-right"></i>Feugiat vitae</li>
+                    <li><i class="fa-li fa fa-spinner fa-spin"></i>Tempor sit amet</li>
+                    <li><i class="fa-li fa fa-square"></i>Netus et malesuaa fames</li>
+                </ul>
+                
+                <div class="footer">© 2013. All rights reserved.</div>
+            </div>
+            <!-- /content -->
+            <!-- Left Panel Starts
+                ================================================== -->
+            <div data-role="panel" id="left-panel" data-theme="b">
+                <!-- Social Icons Starts -->
+                <div class="l-social-icons">
+                    <ul>
+                        <li><img src="images/icons/social-icons/fb.png" width="36" height="36"></li>
+                        <li><img src="images/icons/social-icons/twitter.png" width="36" height="36"></li>
+                        <li><img src="images/icons/social-icons/google+.png" width="36" height="36"></li>
+                        <!--<li><img src="images/icons/social-icons/dribble.png" width="36" height="36"></li>
+                        <li><img src="images/icons/social-icons/youtube.png" width="36" height="36"></li>-->
+                    </ul>
+                </div>
+                <!-- Social Icons Ends -->
+                <!-- Main Menu Starts -->
+                <div id="accordion">
+                    <ul id="items">
+                        <li>
+                            <a href="index.html" rel="external" class="activated"><i class="fa fa-home fa-2x"></i>HOME</a>
+                        </li>
+						<li>
+							<a href="#" rel="external"><i class="fa fa-cog fa-2x"></i>INSURANCES</a>
+							<ul class="sub-items">
+                                <li>
+                                    <a href="photo-gallery.html" rel="external">- Auto Insurance</a>
+                                </li>
+                                <li>
+                                    <a href="video-gallery.html" rel="external">- Home Insurance</a>
+                                </li>
+                                <li>
+                                    <a href="2-columns-portfolio.html" rel="external">- Life Insurance</a>
+                                </li>
+                            </ul>
+						</li>
+						<li>
+                            <a href="about-us.html" rel="external"><i class="fa fa-lightbulb-o fa-2x"></i>ABOUT US</a>
+                        </li>
+						<li>
+							<a href="contact-us.html" rel="external"><i class="fa fa-envelope fa-2x"></i>CONTACT US</a>
+						</li>
+                        <!--<li><a href="products.html" rel="external"><i class="fa fa-suitcase fa-2x"></i>PRODUCTS</a></li>
+                        <li>
+                            <a href="#"><i class="fa fa-video-camera fa-2x"></i>GALLERY</a>
+                            <ul class="sub-items">
+                                <li>
+                                    <a href="photo-gallery.html" rel="external">- PHOTO GALLERY</a>
+                                </li>
+                                <li>
+                                    <a href="video-gallery.html" rel="external">- VIDEO GALLERY</a>
+                                </li>
+                                <li>
+                                    <a href="2-columns-portfolio.html" rel="external">- PORTFOLIO GALLERY</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-picture-o fa-2x"></i>PORTFOLIO</a>
+                            <ul class="sub-items">
+                                <li>
+                                    <a href="3-columns-portfolio.html" rel="external">- 3 COLUMNS</a>
+                                </li>
+                                <li>
+                                    <a href="2-columns-portfolio.html" rel="external">- 2 COLUMNS</a>
+                                </li>
+                                <li>
+                                    <a href="1-columns-portfolio.html" rel="external">- 1 COLUMN</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-comments fa-2x"></i>BLOG</a>
+                            <ul class="sub-items">
+                                <li>
+                                    <a href="blog.html" rel="external">- BLOG</a>
+                                    <a href="blog-post.html" rel="external">- SINGLE POST PAGE</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-plus-circle fa-2x"></i>TYPOGRAPHY</a>
+                            <ul class="sub-items">
+                                <li>
+                                    <a href="typography-html.html" rel="external">- HTML</a>
+                                </li>
+                                <li>
+                                    <a href="typography-grids.html" rel="external">- GRIDS</a>
+                                </li>
+                                <li>
+                                    <a href="typography-icons.html" rel="external">- ICONS</a>
+                                </li>
+                                <li>
+                                    <a href="typography-sliders.html" rel="external">- SLIDERS</a>
+                                </li>
+                                <li>
+                                    <a href="typography-carousels.html" rel="external">- CAROUSELS</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="typography-carousels.html" rel="external"><i class="fa fa-bookmark fa-2x"></i>CAROUSELS</a></li>
+                        <li><a href="typography-sliders.html" rel="external"><i class="fa fa-thumbs-up fa-2x"></i>SLIDERS</a></li>                        
+                        <li><a href="typography-icons.html" rel="external"><i class="fa fa-heart fa-2x"></i>AWESOME ICONS</a></li>-->
+                    </ul>
+                </div>
+                <!-- Main Menu Ends -->
+            </div>
+            <!-- Left Panel Ends
+                ================================================== -->
+            <!-- Right Panel Starts
+                ================================================== -->
+            <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c">
+                <!-- Phone Number -->
+                <div class="r-phone"><a href="tel:6584445566"><i class="fa fa-phone-square fa-2x"></i> +65 8444 5566</a></div>
+                <!-- Latest Tweets Starts -->
+                <!--<div class="r-tweets">
+                    <i class="fa fa-twitter fa-2x"></i><span class="heading">TWEETS</span>
+                    <div id="tweet_container">
+                        <div class="holder">
+                            <div class="tweets"></div>
+                        </div>
+                    </div>
+                </div>-->
+                <!-- Latest Tweets Ends -->
+                <!-- Contact Info Starts -->
+                <div class="r-contact-info">
+                    <i class="fa fa-envelope fa-2x"></i><span class="heading">CONTACT US</span><br><br>
+                    <!--<i class="fa fa-location-arrow"></i>&nbsp;&nbsp;<strong>Envato</strong><br>-->
+                    3 Tampines Grande, #02-01,<br>
+                    Singapore 528799<br> 
+                    <!--Victoria 8011 Australia<br>--><br>
+                    <!--<i class="fa fa-envelope-o"></i>&nbsp;&nbsp;<a href="sms:610383766284">SMS Message</a> <br>-->
+                    <i class="fa fa-phone"></i>&nbsp;&nbsp;<a href="tel:6584445566">+65 8444 5566</a> <br>
+                    <i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:Shawn@grinweiv.com" target="_blank">Shawn@grinweiv.com</a>
+                </div>
+                <!-- Contact Info Ends -->
+                <!-- Social Icons Starts -->
+                <div class="l-social-icons">
+                    <ul>
+                        <li><img src="images/icons/social-icons/fb.png" width="36" height="36"></li>
+                        <li><img src="images/icons/social-icons/twitter.png" width="36" height="36"></li>
+                        <li><img src="images/icons/social-icons/google+.png" width="36" height="36"></li>
+                        <!--<li><img src="images/icons/social-icons/dribble.png" width="36" height="36"></li>
+                        <li><img src="images/icons/social-icons/youtube.png" width="36" height="36"></li>-->
+                    </ul>
+                </div>
+                <!-- Social Icons Ends -->
+                <!-- Social Like Buttons-->
+                
+                <!-- /Social Like Buttons-->
+            </div>
+            <!-- Right Panel Ends
+                ================================================== -->
+            <!-- ToTop Starts
+                ================================================== -->  
+            <a href="#" class="scrollup">Scroll</a>      
+            <!-- ToTop Ends
+                ================================================== --> 
+        </div>
+        <!-- Page Contents Ends
+            ================================================== -->
+        <!-- Javascript Files
+            ================================================== -->   
+        <script src="owl-carousel/owl-carousel/owl.carousel.js"></script> 
+        <!-- Custom JS File -->
+        <script src="js/custom.js"></script> 
+        <script src="menu/js/main.js"></script>    
+        <!-- Twitter -->
+        <script src="js/tweets/twitlive-min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/tweets/livetweets.css">
+        <script>
+            $(document).ready(function() {
+            	$(".customizeWindow").click(function() {
+            		$(".customizeMe").css("display", "block");
+            	});
+            	
+            	$("#close").click(function() {
+            		$(".customizeMe").css("display", "none");
+            	});
+            	
+            	$("#custSearch").click(function() {
+            		$(".customizeMe").css("display", "none");
+            		$("#tweet_container h1 em").html($("#keyword").val());
+            	});
+            	
+            	$(".tweets").liveTweets({operator: "#google", liveTweetsToken: "R8l0mjc5sbfmSB1fRdKB15T19mGfI8mpnnfvWipmo"});
+            });
+        </script>
+        <!-- Retina Display -->
+        <script src="js/Retina/retina.js"></script>
+    </body>
+</html>
